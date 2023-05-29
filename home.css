@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-top {
+  height: 15%;
+  background-color: #272a31;
+}
+
+.top-icons-box {
+  margin: 0 10rem;
+}
+.top-icons {
+  display: flex;
+  list-style: none;
+  color: #fff;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+.list {
+  margin-right: 15px;
+  font-family: "lato", sans-serif;
+}
+
+.nav-icon {
+  height: 15px;
+  width: 15px;
+  filter: brightness(0) invert(1);
+}
+.nav-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 10rem;
+}
+
+.nav-link-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-img {
+  height: 40px;
+}
+
+.navlinks {
+  font-family: "lato", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: #272a31;
+}
+
+.navlinks:hover {
+  color: #ec5254;
+}
+
+.nav-box {
+  border: 5px solid #ec5254;
+  padding: 10px;
+  color: #ec5254;
+}
+
+.home-box {
+  background-image: url("./assets/hero.png");
+  height: 85vh;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+}
+
+.home-sub {
+  color: #ec5254;
+  font-family: "lato", sans-serif;
+  font-size: 40px;
+  margin-bottom: 1.5rem;
+}
+
+.home-main {
+  color: #ec5254;
+  font-family: "lato", sans-serif;
+  font-weight: 900;
+  font-size: 80px;
+  margin-bottom: 3rem;
+}
+
+.home-note-box {
+  border: 3px solid #fff;
+  width: 70%;
+  padding: 15px;
+}
+
+.home-note {
+  font-size: 15px;
+  font-family: "lato", sans-serif;
+  line-height: 32px;
+}
+
+.date {
+  font-size: 45px;
+  font-weight: 900;
+  font-family: "lato", sans-serif;
+  line-height: 32px;
+  color: #272a31;
+  margin: 1.5rem 0;
+}
+
+.location {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "lato", sans-serif;
+  line-height: 32px;
+  color: #272a31;
+  margin: 1.5rem 0;
+}
+
+.main-program-box {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-program-content {
+  display: flex;
+  margin: 2rem 0;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.program-name {
+  color: #fff;
+  font-size: 32px;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.hr-main {
+  width: 5%;
+  margin-bottom: 10rem;
+}
+
+.program-content {
+  margin: 2rem 2rem;
+}
+
+.program {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 10px;
+  margin-right: 5px;
+
+  border: 3px solid transparent;
+  transition: border-color 0.3s ease;
+  width: 14%;
+  background-color: #232120da;
+}
+
+.program:hover {
+  border: 2px solid #fff;
+}
+
+.prog-img {
+  margin-top: 15px;
+}
+.program-item {
+  color: #ec5254;
+  font-family: "lato", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.program-note {
+  color: #fff;
+  font-family: "lato", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.see-program {
+  color: #fff;
+  font-family: "lato", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 5rem;
+}
+.partners {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners-heading {
+  color: #fff;
+  font-family: "lato", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 3rem;
+}
+
+.hr-partners {
+  width: 3%;
+  margin: 1.5% 0;
+}
+
+.partner-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.p-icon {
+  width: 140px;
+  filter: grayscale(100%);
+  padding: 10px;
+}

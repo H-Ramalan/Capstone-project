@@ -140,7 +140,7 @@
 
 .logo-header {
   font-family: "lato", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 32px;
   color: #272a31;
 }
@@ -157,7 +157,7 @@
 
 .hr {
   width: 5%;
-  color: #fff;
+
   margin: 1%;
 }
 
@@ -199,7 +199,10 @@
 }
 
 .year1-box {
-  background-image: linear-gradient(to right bottom, rgba(219, 92, 33, 0.788))
+  background-image: linear-gradient(
+      rgba(219, 92, 33, 0.788),
+      rgba(219, 92, 33, 0.504)
+    ),
     url("./assets/Aihs.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -212,7 +215,11 @@
 }
 
 .year2-box {
-  background-image: url("./assets/AIHS-70-29.jpeg");
+  background-image: linear-gradient(
+      rgba(219, 92, 33, 0.788),
+      rgba(219, 92, 33, 0.474)
+    ),
+    url("./assets/AIHS-70-29.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 35vh;
@@ -259,4 +266,56 @@
   display: flex;
   flex-direction: column;
   color: #fff;
+}
+
+.partners {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners-heading {
+  color: #fff;
+  font-family: "lato", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 3rem;
+}
+
+.hr-partners {
+  width: 3%;
+  margin: 1% 0;
+}
+
+.p-icon {
+  width: 140px;
+  filter: grayscale(100%);
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header {
+    display: none;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .past-pics {
+    display: flex;
+    flex-direction: column;
+  }
 }
