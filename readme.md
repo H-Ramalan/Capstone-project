@@ -39,8 +39,8 @@ This is the first capstone project
 
 - HTML-5
 - CSS3
-  -Javascript
 - Linters
+- Javascript
 
 <details>
   <summary>Client</summary>
