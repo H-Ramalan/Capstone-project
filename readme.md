@@ -39,7 +39,7 @@ This is the first capstone project
 
 - HTML-5
 - CSS3
-- Linters
+- Linterssss
 - Javascript
 
 <details>
