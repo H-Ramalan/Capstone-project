@@ -73,6 +73,10 @@
   color: #ec5254;
 }
 
+.menu {
+  display: none;
+}
+
 .home-box {
   background-image: url("./assets/hero.png");
 }
@@ -210,6 +214,68 @@
   font-weight: 300;
   margin-bottom: 5rem;
 }
+
+.speakers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 4% 0;
+}
+
+.featured-speakers {
+  font-family: "lato", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.hr-speakers {
+  width: 5%;
+  margin-left: 48%;
+  margin-top: 1.5rem;
+}
+
+.speaker {
+  display: flex;
+  background-image: url("./assets/check.jpg");
+  background-position: top left;
+  background-repeat: no-repeat;
+  padding: 25px;
+  width: 40%;
+  gap: 20px;
+}
+
+.speaker-name {
+  font-family: "lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #272a31;
+  margin-bottom: 5px;
+}
+
+.speaker-position {
+  color: #ec5254;
+  font-style: italic;
+}
+
+.hr-profile {
+  width: 30px;
+  margin: 7px 0;
+}
+
+.speaker-note {
+  font-family: "lato", sans-serif;
+  font-size: 13px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+.speaker-img {
+  height: 100px;
+}
 .partners {
   background-color: #272a31;
   display: flex;
@@ -345,8 +411,42 @@
     align-items: center;
   }
 
+  .speakers {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 4rem;
+  }
+  .speaker {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .speaker-position {
+    font-size: 15px;
+  }
+
+  .hr-speakers {
+    width: 10%;
+    margin: 20px 48%;
+  }
+
   .see-program {
     display: none;
+  }
+
+  .program-note {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+
+  .prog-img {
+    margin: 10px 0;
+  }
+
+  .program-item {
+    margin: 0 10px;
   }
 
   .join {
@@ -365,6 +465,49 @@
 
   .partners {
     display: none;
+  }
+
+  .menu {
+    background-color: #ec5254;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: auto;
+    width: 100%;
+    position: fixed;
+    display: none;
+  }
+
+  .close-button {
+    filter: grayscale(100%);
+    height: 40px;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    margin-bottom: 4rem;
+  }
+
+  .mobile-menu-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    list-style: none;
+  }
+
+  .mobile-menu-item {
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    font-family: "lato", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 15px;
+    color: #fff;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #fff;
   }
 
   .footer {
